@@ -1,0 +1,131 @@
+@charset "utf-8";
+
+html,
+body {
+	height: 100%;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+body,
+#home {
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+}
+
+body {
+	min-width: 850px;
+	background-color: dimgray;
+	margin: 0 auto;
+	cursor: default;
+}
+
+h1 {
+	font-size: 45px;
+}
+
+#text {
+	padding-left: 50px;
+}
+
+#home {
+	box-sizing: border-box;
+	min-height: 100%;
+	position: relative;
+	padding-bottom: 100px;
+	background-image: url(../image/IMG_20180412_115219.webp);
+}
+
+#nav {
+	color: white;
+	height: auto;
+	padding-left: 120px;
+	padding-right: 50px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+	background: rgba(0, 0, 0, 0.25);
+	text-shadow: 0px 0px 16px black;
+}
+
+.flex {
+	display: flex;
+}
+
+#top {
+	flex: 1;
+}
+
+#link {
+	flex: 1;
+	text-align: center;
+	font-size: 18px;
+	text-shadow: 0px 0px 16px black;
+}
+
+.link {
+	flex: 1;
+	padding: 7px;
+}
+
+.link:hover {
+	background: rgba(0, 0, 0, 0.25);
+}
+
+#footer {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-shadow: 0px 0px 16px black;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+	color: white;
+}
+
+#lan {
+	margin-top: 10px;
+	display: inline-block;
+	color: white;
+}
+
+#cl {
+	display: none;
+	position: absolute;
+}
+
+#lan:hover #cl {
+	display: block;
+}
+
+#lanbuttom {
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+}
+
+.lanbuttom {
+	width: 100px;
+	padding: 5px;
+	text-align: center;
+}
+
+.lanbuttom:hover {
+	background-color: rgba(0, 0, 0, 0.25);
+}
+
+#bq {
+	margin-top: 5px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+#lanbuttom,
+.lanbuttom {
+	font-family: "微软雅黑";
+}

@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+#content {
+	margin-top: 100px;
+	margin-bottom: 150px;
+	color: white;
+	font-size: 35px;
+	text-shadow: 0px 0px 16px black;
+}
+
+.label {
+	margin: 20px;
+}
+
+img {
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+	background-color: rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+#sc {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#sc1,
+#sc2,
+#sc3 {
+	flex: 1;
+	text-align: center;
+}
+
+.scp1,.scp2 {
+	width: 292px;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+.scp1{
+	height: 219px;
+}
+.scp2{
+	height: 389px;
+}
+
+
+#ts {
+	width: 912px;
+	margin: 0 auto;
+}
+
+#tst {
+	width: 912px;
+	height: 912px;
+	border-spacing: 10px;
+}
+
+#tsp1 {
+	background-image: url(../image/taishan/cut/1.webp);
+}
+
+#tsp2 {
+	background-image: url(../image/taishan/cut/4.webp);
+}
+
+#tsp3 {
+	background-image: url(../image/taishan/cut/2.webp);
+}
+
+#tsp4 {
+	background-image: url(../image/taishan/cut/3.webp);
+}
+
+#tsp5 {
+	background-image: url(../image/taishan/cut/5.webp);
+}
+
+#tsp1,#tsp2,#tsp3,#tsp4,#tsp5{
+	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 16px rgba(0,0,0,0.5);
+	border-radius: 5px;
+}
+
+#tsp1,
+#tsp2,
+#tsp3,
+#tsp4,
+#tsp5 {
+	background-size: cover;
+}
+
+#mz {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.mzp {
+	width: 442px;
+	height: 442px;
+	flex: 1;
+	margin: 5px;
+}
+
+#st {
+	width: 900px;
+	margin: 0 auto;
+}
+
+#stp,#stt,#stm,#stb {
+	width: 900px;
+}
+
+.stt,.stm {
+	flex: 1;
+}
+
+.sttp {
+	width: 442px;
+	height: 295px;
+}
+
+.stmp1,
+.stmp3 {
+	width: 295px;
+	height: 393px;
+}
+
+.stmp2 {
+	width: 284px;
+	height: 189px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+}
+
+.stbp {
+	width: 894px;
+	height: 503px;
+}
+
+.sttp,
+.stmp1,
+.stmp3,
+.stbp {
+	margin: 5px;
+}
+
+#camera {
+	width: 900px;
+	margin: 0 auto;
+}
+
+.ct.cb {
+	flex: 1;
+}
+
+.ct>img,
+.cb>img {
+	width: 291px;
+	height: 218px;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#ts,#mz,#st,#camera{
+	margin-top: 50px;
+}

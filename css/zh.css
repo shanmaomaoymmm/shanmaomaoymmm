@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'HYLiangPinXianCuJ';
+	src: url('../font/HYLiangPinXianCuJ.ttf');
+}
+
+@font-face {
+	font-family: 'zhankukuaile';
+	src: url('../font/zhankukuaile.ttf');
+}
+
+@font-face {
+	font-family: 'yayuan';
+	src: url('../font/yayuan.ttf');
+}
+
+body {
+	font-family: "HYLiangPinXianCuJ";
+}
+
+h1 {
+	font-family: "zhankukuaile";
+}
+
+h3 {
+	font-family: "yayuan";
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'UDDigiKyokashoN-R';
+	src: url('../font/UDDigiKyokashoN-R.ttc');
+}
+
+@font-face {
+	font-family: 'UDDigiKyokashoN-B';
+	src: url('../font/UDDigiKyokashoN-B.ttc');
+}
+
+@font-face {
+	font-family: 'SourceHanSans-Normal';
+	src: url('../font/SourceHanSans-Normal.otf');
+}
+
+body {
+	font-family: "UDDigiKyokashoN-R";
+}
+
+h1,
+h3 {
+	font-family: "UDDigiKyokashoN-B";
+}
+
+.make{
+	font-family: "SourceHanSans-Normal";
+}

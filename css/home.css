@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+img {
+	width: 150px;
+	height: 200px;
+	box-shadow: 0px 0px 32px rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+#nav-home {
+	color: white;
+	height: auto;
+	padding-left: 120px;
+	padding-right: 50px;
+	padding-top: 75px;
+	padding-bottom: 75px;
+}
+
+h3 {
+	font-size: 25px;
+}
+
+#hr {
+	background-color: black;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	text-align: center;
+	height: 45px;
+	font-size: 25px;
+	padding-top: 15px;
+	text-shadow: 0px 0px 16px black;
+	margin-top: 50px;
+}
+
+#content {
+	padding-top: 10vh;
+	padding-bottom: 8vh;
+}
+
+#my {
+	max-width: 700px;
+	min-width: 650px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	height: 250px;
+}
+
+#photo,
+#life,
+#make {
+	flex: 1;
+}
+
+#photo>div,
+#life>div,
+#make>div {
+	width: 150px;
+	transition: padding-top 100ms ease;
+	margin: 0 auto;
+}
+
+#photo>div:hover,
+#life>div:hover,
+#make>div:hover {
+	padding-top: 25px;
+}
+
+.l {
+	position: absolute;
+	width: 150px;
+	text-align: center;
+	padding-top: 60px;
+	font-size: 30px;
+	text-shadow: 0px 0px 16px black;
+}
+
+#name {
+	text-shadow: 0px 0px 16px black;
+}
+
+
+
+#footer {
+	background-color: #000000;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	font-size: 14px;
+	color: white;
+}

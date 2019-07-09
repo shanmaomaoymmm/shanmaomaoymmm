@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+#content {
+	text-align: center;
+	margin: 50px;
+}
+
+iframe {
+	width: 750px;
+	height: 500px;
+	box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.5);
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+#span {
+	font-size: 12px;
+	color: white;
+	text-shadow: 0px 0px 16px black;
+	text-align: right;
+}
+
+.make {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.label {
+	color: white;
+	text-shadow: 0px 0px 16px black;
+	font-size: 25px;
+	margin: 25px;
+}

@@ -1,0 +1,22 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'SourceHanSans-Normal';
+	src: url('../font/SourceHanSans-Normal.otf');
+}
+
+@font-face {
+	font-family: 'SourceHanSans-Heavy';
+	src: url('../font/SourceHanSans-Heavy.otf');
+}
+
+body {
+	font-family: "SourceHanSans-Normal";
+}
+
+h1,
+h3 {
+	font-family: "SourceHanSans-Heavy";
+}
+
+
